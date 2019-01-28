@@ -11,18 +11,18 @@
 		<!-- 1st Column -->
 		<div class="col rams-blue center-content" id="rams-column">
 			<!-- IN THIS TASK WE ARE MAKING THE IMAGES (NOT THE DIVS) CLICKABLE -->
-			<img src="images/rams_logo.png" class="restrict-img-size" onclick="allOpaque(this)"/>
+			<img src="images/rams_logo.png" class="restrict-img-size" onclick="showTrophy(this)"/>
 		</div>
 		
 		<!-- 2nd Column -->
-		<div class="col">
-			<img src="" class="restrict-img-size"/>
+		<div class="col center-content">
+			<img src="" class="restrict-img-size id="mid-column"/>
 		</div>
 		
 		<!-- 3rd Column -->
-		<div class="col pats-silver center-content" id="pats-column">
+		<div class="col pats-silver center-content" id="pats-column onclick="removeColor(this)">
 			<!-- IN THIS TASK WE ARE MAKING THE IMAGES (NOT THE DIVS) CLICKABLE -->
-			<img src="images/pats_logo.png" class="restrict-img-size" onclick="removeColor(this)"/>
+			<img src="images/pats_logo.png" class="restrict-img-size" id="opacity-pats"/>
 		</div>
 		
 		<script src="script.js"></script>
