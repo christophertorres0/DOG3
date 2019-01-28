@@ -3,16 +3,22 @@
 	
 // "el" stands for the "element" that was just clicked
 function allOpaque(el){
-	el.classList.add("opaque");
+	document.getElemenetByID("opqcity-pats").classlist.add("opaque");
+	document.getElemenetByID("opqcity-rams").classlist.add("opaque");
+
 	
 }
 
 // "el" stands for the "element" that was just clicked
 function removeColor(el){
-	el.classList.remove("pats-silver");
+	document.getElemenetByID("rams-column").classlist.remove("rams-blue");
+	document.getElemenetByID("pats-column").classlist.remove("rams-silver");
+
+
 	
 }
 
 function showTrophy(el){
-	el.src = "images/lombardi_trophy.jpg";
+		document.getElemenetByID("opacity-crams").src="images/"
+
 }
